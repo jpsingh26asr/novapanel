@@ -44,3 +44,6 @@ Credentials are saved to `/root/.server_credentials`.
 ## License
 
 GPL-3.0 — see [LICENSE](LICENSE)
+
+
+your-panel-name/ ├── install/ │ ├── 01_install_lamp_server.sh # Step 1 │ └── 02_install_webpanel.sh # Step 2 ├── tools/ │ ├── diagnose_webpanel.sh # Diagnostic │ ├── fix_webpanel.sh # Auto-fix 503 │ └── backup_webpanel.sh # Manual backup ├── docs/ │ ├── installation.md │ ├── user-guide.md │ └── troubleshooting.md ├── screenshots/ # PNG/WebP images ├── README.md ├── CHANGELOG.md ├── CONTRIBUTING.md ├── LICENSE └── .github/ ├── ISSUE_TEMPLATE/ │ ├── bug_report.md │ └── feature_request.md └── workflows/ └── validate.yml # bash -n syntax check
